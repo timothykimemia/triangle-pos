@@ -17,102 +17,102 @@ class PermissionsTableSeeder extends Seeder
     public function run()
     {
         $permissions = [
-            //User Mangement
+            // User Management
             'edit_own_profile',
             'access_user_management',
-            //Dashboard
+            // Dashboard
             'show_total_stats',
             'show_month_overview',
             'show_weekly_sales_purchases',
             'show_monthly_cashflow',
             'show_notifications',
-            //Products
+            // Products
             'access_products',
             'create_products',
             'show_products',
             'edit_products',
             'delete_products',
-            //Product Categories
+            // Product Categories
             'access_product_categories',
-            //Barcode Printing
+            // Barcode Printing
             'print_barcodes',
-            //Adjustments
+            // Adjustments
             'access_adjustments',
             'create_adjustments',
             'show_adjustments',
             'edit_adjustments',
             'delete_adjustments',
-            //Quotaions
+            // Quotations
             'access_quotations',
             'create_quotations',
             'show_quotations',
             'edit_quotations',
             'delete_quotations',
-            //Create Sale From Quotation
+            // Create Sale From Quotation
             'create_quotation_sales',
-            //Send Quotation On Email
+            // Send Quotation On Email
             'send_quotation_mails',
-            //Expenses
+            // Expenses
             'access_expenses',
             'create_expenses',
             'edit_expenses',
             'delete_expenses',
-            //Expense Categories
+            // Expense Categories
             'access_expense_categories',
-            //Customers
+            // Customers
             'access_customers',
             'create_customers',
             'show_customers',
             'edit_customers',
             'delete_customers',
-            //Suppliers
+            // Suppliers
             'access_suppliers',
             'create_suppliers',
             'show_suppliers',
             'edit_suppliers',
             'delete_suppliers',
-            //Sales
+            // Sales
             'access_sales',
             'create_sales',
             'show_sales',
             'edit_sales',
             'delete_sales',
-            //POS Sale
+            // POS Sale
             'create_pos_sales',
-            //Sale Payments
+            // Sale Payments
             'access_sale_payments',
-            //Sale Returns
+            // Sale Returns
             'access_sale_returns',
             'create_sale_returns',
             'show_sale_returns',
             'edit_sale_returns',
             'delete_sale_returns',
-            //Sale Return Payments
+            // Sale Return Payments
             'access_sale_return_payments',
-            //Purchases
+            // Purchases
             'access_purchases',
             'create_purchases',
             'show_purchases',
             'edit_purchases',
             'delete_purchases',
-            //Purchase Payments
+            // Purchase Payments
             'access_purchase_payments',
-            //Purchase Returns
+            // Purchase Returns
             'access_purchase_returns',
             'create_purchase_returns',
             'show_purchase_returns',
             'edit_purchase_returns',
             'delete_purchase_returns',
-            //Purchase Return Payments
+            // Purchase Return Payments
             'access_purchase_return_payments',
-            //Reports
+            // Reports
             'access_reports',
-            //Currencies
+            // Currencies
             'access_currencies',
             'create_currencies',
             'edit_currencies',
             'delete_currencies',
-            //Settings
+            // Settings
             'access_settings'
         ];
 
